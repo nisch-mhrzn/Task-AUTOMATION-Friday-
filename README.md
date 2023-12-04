@@ -24,7 +24,7 @@ Friday is a voice-controlled personal assistant written in Python. It can perfor
 
 ### Usage
 
-1. Clone the repository: `git clone https://github.com/yourusername/friday-assistant.git`
+1. Clone the repository: `git clone https://(https://github.com/nisch-mhrzn/Task-AUTOMATION)`
 2. Navigate to the project folder: `cd friday-assistant`
 3. Run the script: `python main.py`
 
