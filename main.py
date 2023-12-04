@@ -115,12 +115,10 @@ if __name__ == "__main__":
             speak("I'm fine sir. What about you?")
             print("I'm fine sir. What about you?")
 
-        elif "fine" in query:
-            speak("Glad to hear that sir!!")
-
-        elif "good" in query:
+        elif "fine" in query or "good" in query:
             speak("Glad to hear that sir!!")
             print("Glad to hear that sir!!")
+
 
         elif "wikipedia" in query:
             try:
