@@ -18,13 +18,13 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
-def time():
+def current_time():
     Time = datetime.datetime.now().strftime("%I:%M:%S")
     speak("Sir,The current time is")
     speak(Time)
     print("Sir, The current time is ", Time)
 
-def date():
+def current_date():
     day = int(datetime.datetime.now().day)
     month = int(datetime.datetime.now().month)
     year = int(datetime.datetime.now().year)
@@ -102,10 +102,10 @@ if __name__ == "__main__":
     while True:
         query = takecommand().lower()
         if "time" in query:
-            time()
+            current_time()
 
         elif "date" in query:
-            date()
+            current_date()
 
         elif "who are you" in query:
             speak("I am Friday. Please tell me how may I help you?")
